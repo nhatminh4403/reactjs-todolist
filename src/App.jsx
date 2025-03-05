@@ -22,7 +22,7 @@ function App() {
     const newTodoList = todos.filter((todo,todoIndex) => {
       return todoIndex !== index;
     })
-    presistData(newToDoList);
+    presistData(newTodoList);
 
     setTodos(newTodoList);
   }
